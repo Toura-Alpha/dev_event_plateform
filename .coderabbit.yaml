@@ -1,0 +1,6 @@
+# .coderabbit.yaml
+instructions: "Review the TypeScript and React code for conformity with Next.js best practices, specifically focusing on App Router patterns, Server Components, and efficient data fetching."
+auto_review:
+  enabled: true
+  frequency: "daily"
+  time: "02:00"
