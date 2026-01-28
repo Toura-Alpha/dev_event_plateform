@@ -5,7 +5,7 @@ import events from "@/lib/constants";
 import { IEvent } from "@/database/event.model";
 
 const page = async () => {
-  const response = await fetch('http://localhost:3000/api/events');
+  const response = await fetch("http://localhost:3000/api/events");
   const { events } = await response.json();
 
   return (
